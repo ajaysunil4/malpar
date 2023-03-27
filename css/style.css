@@ -49,7 +49,7 @@ h6 {
     margin: 0;
 	color: #323648;
 }
-h5{
+h5, h4{
 	font-weight: 600;
 }
 li {
@@ -95,6 +95,10 @@ nav {
 	margin:0;
 	padding: 0;
 }
+.nav1{
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ;
+	background-attachment: fixed;
+}
 
 
 #logo a {
@@ -105,7 +109,7 @@ nav {
     letter-spacing: 1px;
     color: #fff;
     font-weight: 600;
-    padding: 3px 0;
+    padding: 2px 0;
     border: none;
 }
 #logo a span.fa {
@@ -382,11 +386,12 @@ li > a:only-child:after { content: ''; }
 
 .banner-top {
     background: url(../images/mp1.jpg) no-repeat;
-    background-size: 130% 90%;
-    -webkit-background-size: 130% 90%;
-    -moz-background-size: 130% 90%;
-    -o-background-size: 130% 90%;
-    -moz-background-size: 130% 90%;
+    background-size: 130% 100%;
+    -webkit-background-size: 130% 100%;
+    -moz-background-size: 130% 100%;
+    -o-background-size: 130% 100%;
+    -moz-background-size: 130% 100%;
+	background-attachment: fixed;
 }
 
 .banner-top1 {
@@ -709,14 +714,13 @@ p.footer-para {
 /*-- social icons --*/
 .footercopy-social ul li,
 .contact-left-footer ul li {
-    display: inline-block;
+    display: inline-flex;
 }
 footer{
     background: #191818;
 }
 .footercopy-social ul li a {
     color: #333;
-    text-align: center;
 }
 
 .footercopy-social ul li a span.fa {
