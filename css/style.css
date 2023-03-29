@@ -156,6 +156,7 @@ nav a {
                     #16c000, #88ff84, #ffffff);
             -webkit-text-fill-color: transparent;
 			-webkit-background-clip: text;
+			-webkit-text-stroke: .15px gold;
 }
 
 nav ul li ul li:hover { background: #f8f9fa; }
@@ -165,7 +166,8 @@ nav a:hover {
 	color: #ddd;
 }
 .menu li.active  a{ 
-	color: #fff;
+	color: #14af00;
+	-webkit-text-stroke: .15px gold;
 }
 
 /* Hide Dropdowns by Default
