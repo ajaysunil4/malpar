@@ -95,10 +95,10 @@ nav {
 	margin:0;
 	padding: 0;
 }
-.nav1{
+/*.nav1{
 	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ;
 	background-attachment: fixed;
-}
+} */
 
 
 #logo a {
@@ -115,7 +115,6 @@ nav {
 #logo a span.fa {
     color: #e8cd30;
 }
-
 
 /* Since we'll have the "ul li" "float:left"
  * we need to add a clear after the container. */
@@ -139,8 +138,7 @@ nav ul {
 /* Positioning the navigation items inline */
 nav ul li {
 	margin: 0px;
-	display:inline-block;
-	float: left;
+	float:left;
 	}
 
 /* Styling the links */
@@ -153,7 +151,12 @@ nav a {
 	padding: 10px 0;
     font-weight: 700;
 }
-
+.color1{
+	background: linear-gradient(#1d8f00,
+                    #16c000, #88ff84, #ffffff);
+            -webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
 
 nav ul li ul li:hover { background: #f8f9fa; }
 
@@ -385,26 +388,28 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top {
-    background: url(../images/mp1.jpg) no-repeat;
-    background-size: 130% 100%;
-    -webkit-background-size: 130% 100%;
-    -moz-background-size: 130% 100%;
-    -o-background-size: 130% 100%;
-    -moz-background-size: 130% 100%;
+    background: url(../images/3.jpg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
 	background-attachment: fixed;
+	
 }
 
 .banner-top1 {
-    background: url(../images/1.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background: url(../images/img3.jpg) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+	background-attachment: fixed;
 }
 
 .banner-top2 {
-    background: url(../images/5.jpg) no-repeat center;
+    background: url(../images/img2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -413,7 +418,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top3 {
-    background: url(../images/2.jpg) no-repeat center;
+    background: url(../images/img1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -457,11 +462,11 @@ li > a:only-child:after { content: ''; }
 }
 .overlay {
     
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
 }
 .overlay1 {
     
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .button-style {
