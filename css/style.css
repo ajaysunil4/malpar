@@ -7,6 +7,10 @@ body {
 	font-family: 'Thasadith', sans-serif;
 }
 
+::-webkit-scrollbar {
+	width: 0px;
+  }
+
 html {
   scroll-behavior: smooth;
 }
@@ -153,7 +157,7 @@ nav a {
 }
 .color1{
 	background: linear-gradient(#1d8f00,
-                    #16c000, rgb(255, 217, 0), rgb(165, 140, 0));
+                    #16c000, rgb(145, 255, 0), rgb(165, 140, 0));
             -webkit-text-fill-color: transparent;
 			-webkit-background-clip: text;
 			-webkit-text-stroke: .15px gold;
@@ -391,42 +395,42 @@ li > a:only-child:after { content: ''; }
 
 .banner-top {
     background: url(../images/3.jpg) no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
 	background-attachment: fixed;
 	
 }
 
 .banner-top1 {
     background: url(../images/img3.jpg) no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
 	background-attachment: fixed;
 }
 
 .banner-top2 {
     background: url(../images/img2.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
 	background-attachment: fixed;
 }
 
 .banner-top3 {
     background: url(../images/img1.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
 	background-attachment: fixed;
 }
 
@@ -465,6 +469,20 @@ li > a:only-child:after { content: ''; }
 	background-size: cover;
 	
 }
+.typed {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation: typing;
+	animation-duration: 1.5s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+  }
+	
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
 
 .overlay {
     
