@@ -1,18 +1,11 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Agro Harvest Agriculture Category Flat Bootstrap Responsive Web Template | Comingsoon :: w3layouts</title>
+<title>Malarum Parambariyam</title>
+<link rel="icon" type="image/x-icon" href="./images/download.png">
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<meta name="keywords" content="Agro Harvest Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
     <script>
         addEventListener("load", function () {
@@ -28,6 +21,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
     <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
 	<!-- //css files -->
 	
 	<link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
@@ -36,25 +35,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="//fonts.googleapis.com/css?family=Thasadith:400,400i,700,700i&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet">
 	<!-- //google fonts -->
 	
+	<style>
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+.image-container .image {
+  position: relative;
+  padding-bottom: 100%;
+}
+.image-container .image img {
+  height: 100%;
+  width: 150%;
+  object-fit: cover;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.image-container .image img:nth-of-type(1) {
+  filter: grayscale(1) brightness(40%);
+}
+.image-container .image img:nth-of-type(2) {
+  clip-path: var(--clip-start);
+  transition: clip-path 0.5s;
+}
+.image-container .image:hover img:nth-of-type(2) {
+  clip-path: var(--clip-end);
+}
+	</style>
 </head>
 <body>
 <!-- //header -->
 <header>
 	<div class="container">
 		<!-- nav -->
-		<nav class="py-4 d-lg-flex">
+		<nav class="py-3 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
+			 <h4><a href="index.html"><img src="./images/download.png" width="84px" height="84px"><span class="color1"> MALARUM PARAMBARIYAM</span></h4>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
-			<ul class="menu mt-md-2 ml-auto">
-				<li class="mr-lg-4 mr-2"><a href="index.html">Home</a></li>
-				<li class="mr-lg-4 mr-2"><a href="about.html">About Us</a></li>
-				<li class="mr-lg-4 mr-2"><a href="services.html">Services</a></li>
-				<li class="mr-lg-4 mr-2 active"><a href="comingsoon.html">Gallery</a></li>
-				<li class="mr-lg-4 mr-2"><a href="contact.html">Contact</a></li>
-				<li class="mr-lg-4 mr-2"><span><span class="fa fa-phone"></span> +12 345 6789</span></li>
+			<ul class="menu mt-md-2 py-4 ml-auto">
+				<li class="mr-lg-4 mr-2 h6"><a href="index.html">Home</a></li>
+				<li class="mr-lg-4 mr-2 h6"><a href="about.html">About Us</a></li>
+				<li class="mr-lg-4 mr-2 h6"><a href="services.html">Management Profiles</a></li>
+				<li class="mr-lg-4 mr-2 h6 active"><a href="comingsoon.html">Gallery</a></li>
+				<li class="mr-lg-4 mr-2 h6"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 		<!-- //nav -->
@@ -70,103 +98,125 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //banner -->
 
 <!-- Comingsoon -->
-<section class="comingsoon py-5">
-	<div class="container py-md-5">
-		<div class="row">
-			<div class="col-lg-6 offset-lg-6 col-md-8 offset-md-4">
-				<h4>Under Construction</h4>
-				<p class="mt-3">Our Gallery page is currently undergoing scheduled maintenance. We should be back shortly. Thank you for your patience.</p>
-				<div class="mt-4">
-					<form action="#" method="post" class="newsletter">
-						<input class="email" type="email" placeholder="Enter your email id..." required="">
-						<button class="form-control btn" value="">Subscribe</button>
-					</form>
-				</div>
-				<p class="mt-2">Sign up now to get early notification!</p>
-			</div>
-		</div>
+<div class="container">
+<h3 class="text-center">Women's day celebration at Theni District</h3>
+<div class="py-4 image-container">
+	<a href="./images/wd/wd2.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd2.jpg"/><img class="img-fluid" src="./images/wd/wd2.jpg"/></div></a>
+	<a href="./images/wd/wd3.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd3.jpg"/><img class="img-fluid" src="./images/wd/wd3.jpg"/></div></a>
+	<a href="./images/wd/wd4.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd4.jpg"/><img class="img-fluid" src="./images/wd/wd4.jpg"/></div></a>
+	<a href="./images/wd/wd5.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd5.jpg"/><img class="img-fluid" src="./images/wd/wd5.jpg"/></div></a>
+	<a href="./images/wd/wd6.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd6.jpg"/><img class="img-fluid" src="./images/wd/wd6.jpg"/></div></a>
+	<a href="./images/wd/wd7.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd7.jpg"/><img class="img-fluid" src="./images/wd/wd7.jpg"/></div></a>
+	<a href="./images/wd/wd8.jpg" data-lightbox="photos"><div class="image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd8.jpg"/><img class="img-fluid" src="./images/wd/wd8.jpg"/></div></a>
 	</div>
-</section>
-<!-- //Comingsoon -->
+</div> <!--
+<div class="lightbox-gallery">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Women's day celebration at Theni District</h2>
+        </div>
+        <div class="row photos image-container">
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><img src="./images/wd/wd8.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd8.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd7.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd7.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd6.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd6.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd5.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd5.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd4.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd4.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd3.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd3.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd2.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd2.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd1.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd1.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item image" style="--clip-start: inset(100% 100% 100% 100%); --clip-end: inset(0 0 0 0);"><a href="./images/wd/wd7.jpg" data-lightbox="photos"><img class="img-fluid" src="./images/wd/wd7.jpg"></a></div>
+        </div>
+    </div>
+</div>
+	 //Comingsoon -->
 
 <!-- footer -->
-	<footer class="text-center py-5">
-		<div class="container py-md-3">
-			<!-- logo -->
-			<h2 class="logo2 text-center">
-				<a href="index.html">
-					<span class="fa fa-leaf"></span> Agro Harvest
-				</a>
-			</h2>
-			<!-- //logo -->
-			<!-- address -->
-			<div class="contact-left-footer mt-4">
-				<ul>
-					<li>
-						<p>
-							<span class="fa fa-map-marker mr-2"></span>Agriculture Business, 2nd Block, USA
-						</p>
-					</li>
-					<li class="mx-4">
-						<p>
-							<span class="fa fa-phone mr-2"></span>+12(345) 6789 111.
-						</p>
-					</li>
-					<li>
-						<p class="text-wh">
-							<span class="fa fa-envelope-open mr-2"></span>
-							<a href="mailto:info@example.com">Example@gmail.com</a>
-						</p>
-					</li>
-				</ul>
-			</div>
-			<!-- //address -->
-			<!-- social icons -->
-			<div class="footercopy-social my-4">
-				<ul>
-					<li>
-						<a href="#">
-							<span class="fa fa-facebook-square"></span>
-						</a>
-					</li>
-					<li class="mx-2">
-						<a href="#">
-							<span class="fa fa-twitter-square"></span>
-						</a>
-					</li>
-					<li class="">
-						<a href="#">
-							<span class="fa fa-google-plus-square"></span>
-						</a>
-					</li>
-					<li class="mx-2">
-						<a href="#">
-							<span class="fa fa-linkedin-square"></span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span class="fa fa-rss-square"></span>
-						</a>
-					</li>
-					<li class="ml-2">
-						<a href="#">
-							<span class="fa fa-pinterest-square"></span>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- //social icons -->
-			<!-- copyright -->
-			<div class="w3l-copy text-center">
-				<p class="text-da">© 2019 Agro Harvest. All rights reserved | Design by
-					<a href="http://w3layouts.com/">W3layouts</a>
-				</p>
-			</div>
-			<!-- //copyright -->
+<footer class="text-left py-5">
+	<div class="container">
+		<!-- logo -->
+		<h2 class="text-center"><a href="index.html"><img src="./images/download.png" width="84px" height="84px"><br><span class="color1" style="text-shadow: 2px 3px 5px #7e7e7e;"> MALARUM PARAMBARIYAM</span></h2>
+		<br>
+			<br>
+		<!-- //logo -->
+		<!-- address -->
+		<div class="contact-left-footer mt-6">
+			<div  class="col-lg-12">
+			<h3 class="text-center" style="color: #c9c9c9;">Contact Us</h3>
+			<br>
+			<br>
+			<ul>
+				<li class="col-lg-4 text-justify">
+					<p>
+						<span class="fa fa-map-marker mr-2 "></span><span class="text-justify"> No.379/43, Renu Avenue, No.1 Toll Gate, Pichandarkoil Post, Manachanallur TK, Trichy 621216
+						Tamilnadu, India.</span> <br>
+						<span class="fa fa-map-marker mr-2 "></span><span class="text-justify"> Gazagate 401, Godrej Azure Padur circle, Padur,OMR, Chennai 603103.. Tamilnadu India.</span>
+					</p>
+				</li>
+				<li class="col-lg-4">
+					<p>
+						<span class="fa fa-phone mr-2"></span>+91 94438 33933,<br>
+						<span class="fa fa-phone mr-2"></span>+91 88254 30512,<br>
+						<span class="fa fa-phone mr-2"></span>+91 85259 51717
+					</p>
+				</li>
+				<li class="col-lg-3">
+					<p>
+						<span class="fa fa-envelope-open mr-2"></span>
+						<a href="mailto:rtft2018@gmail.com">rtft2018@gmail.com</a>
+					</p>
+				</li>
+			</ul>
 		</div>
-	</footer>
-	<!-- //footer -->
+	</div>
+		<!-- //address -->
+		<!-- social icons -->
+	<!--	<div class="footercopy-social my-4">
+			<ul>
+				<li>
+					<a href="#">
+						<span class="fa fa-facebook-square"></span>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<span class="fa fa-twitter-square"></span>
+					</a>
+				</li>
+				<li class="">
+					<a href="#">
+						<span class="fa fa-google-plus-square"></span>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#">
+						<span class="fa fa-linkedin-square"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa fa-rss-square"></span>
+					</a>
+				</li>
+				<li class="ml-2">
+					<a href="#">
+						<span class="fa fa-pinterest-square"></span>
+					</a>
+				</li>
+			</ul>
+		</div> -->
+		<!-- //social icons -->
+		<!-- copyright -->
+		<div class="w3l-copy text-center">
+			<br>
+			<br>
+			<br>
+			<p class="text-da">© 2023 Malarum Parambariyam. All rights reserved | Design by a Team
+			</p>
+		</div>
+		<!-- //copyright -->
+	</div>
+</footer>
+<!-- //footer -->
 
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
