@@ -21,6 +21,7 @@
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
     <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
 	<script src="assets/vendor/aos/aos.js"></script>
 	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -102,7 +103,7 @@
 <h2 class="text-center">Women's day celebration at Theni District</h2>
 	</div>
 <div class="row">
-    <div class="row__inner">
+    <div class="row__inner w3-content w3-display-container">
 
 		<div class="tile">
 			<div class="tile__media">
@@ -152,7 +153,8 @@
         </div>
       </div>
 	</div>
-	
+	<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div><br><br>
 <div class="intro">
 	<h2 class="text-center">Training programs and other activities at school</h2>
@@ -195,8 +197,9 @@
           <img class="tile__img" src="./images/sc/sc4.jpg" alt=""  />
         </div>
       </div>
+
 	</div>
-	
+
 </div>
 </div>
 <!--
@@ -311,7 +314,25 @@
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->
-
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+		
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
 	
 </body>
 </html>
