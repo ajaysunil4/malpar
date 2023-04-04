@@ -300,7 +300,7 @@ li > a:only-child:after { content: ''; }
 
 	/* Change menu item's width to 100% */
 	nav ul li {
-		display: block;
+		
 		width: 100%;
 		padding: 7px 0;
 		}
@@ -397,6 +397,7 @@ li > a:only-child:after { content: ''; }
 
 .banner-top {
     background: url(../images/3.jpg) no-repeat;
+	object-fit: cover;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -408,6 +409,7 @@ li > a:only-child:after { content: ''; }
 
 .banner-top1 {
     background: url(../images/img3.jpg) no-repeat;
+	object-fit: cover;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -418,6 +420,7 @@ li > a:only-child:after { content: ''; }
 
 .banner-top2 {
     background: url(../images/img2.jpg) no-repeat center;
+	object-fit: cover;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -428,6 +431,7 @@ li > a:only-child:after { content: ''; }
 
 .banner-top3 {
     background: url(../images/img1.jpg) no-repeat center;
+	object-fit: cover;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
