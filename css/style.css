@@ -1223,6 +1223,20 @@ form.newsletter {
     letter-spacing: 1px;
 }
 /*----------------------*/
+.top-content .carousel-control-prev {
+    left: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+ 
+.top-content .carousel-control-next {
+    right: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+
 .contain {
   width: 100%;
 }
