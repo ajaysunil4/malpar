@@ -974,9 +974,12 @@ p.count-text {
     /* text-transform: uppercase; */
     margin-top: 1em;
 }
-.team-text span{
+.team-text span, a{
 	font-weight: 600;
 	color: #000;
+}
+.team-text a:hover{
+	text-decoration: none;
 }
 .img-team{
 	object-fit: cover;
