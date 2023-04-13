@@ -967,12 +967,21 @@ p.count-text {
 /* //news */
 
 /*-- team --*/
-.team-text h4 {
+.team-text h5 {
     font-size: 22px;
     letter-spacing: 2px;
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 1em;
+}
+.team-text span{
+	font-weight: 600;
+	color: #000;
+}
+.img-team{
+	object-fit: cover;
+	height: 412px;
+	width: 315px;
 }
 .caption ul li {
     display: inline-block;
