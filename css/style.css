@@ -967,6 +967,10 @@ p.count-text {
 /* //news */
 
 /*-- team --*/
+.team{
+	background: lightgray;
+}
+
 .team-text h5 {
     font-size: 22px;
     letter-spacing: 2px;
@@ -986,6 +990,7 @@ p.count-text {
 	height: 412px;
 	width: 315px;
 }
+
 .caption ul li {
     display: inline-block;
     margin: 0 5px;
